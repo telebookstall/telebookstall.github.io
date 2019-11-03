@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### NYU Student studying Finance and Computer Science
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+This is a simple blog I made for fun (mainly to display photos from my camera) using Jekyll and Jekyll Now theme. This is my first time using Jekyll, so shit might be rough around the edges.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[hp1141@stern.nyu.edu](mailto:hp1141@stern.nyu.edu)
