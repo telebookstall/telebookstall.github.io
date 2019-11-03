@@ -25,4 +25,4 @@ title: First Test Post
 
 [Sample Link](https://google.com)
 
-![Sample Image](/images/DSC00922.jpg)
+![Sample Image]({{site.baseurl}}/images/DSC00922.jpg)

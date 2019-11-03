@@ -14,4 +14,4 @@ This is a simple blog I made for fun (mainly to display photos from my camera) u
 
 ### All pictures are shot on my Sony RX1
 
-![Sony RX1](/images/rx1.jpg)
+![Sony RX1]({{site.baseurl}}/images/rx1.jpg)
