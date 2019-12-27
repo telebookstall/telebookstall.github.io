@@ -11,7 +11,3 @@ This is a simple blog I made for fun (mainly to display photos from my camera) u
 ### Contact me
 
 [hp1141@stern.nyu.edu](mailto:hp1141@stern.nyu.edu)
-
-### All pictures are shot on my Sony RX1
-
-![Sony RX1]({{site.baseurl}}/images/sonyrx1.jpg)
