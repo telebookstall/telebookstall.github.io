@@ -16,7 +16,7 @@ permalink: /portfolio/
 
 #### Full-stack, functional, modern recreation of Craigslist
 
-![craigslist 1]({{site.baseurl}}/images/craigslist1.png)
+![craigslist 1]({{site.baseurl}}/assets/images/blog/craigslist1.png)
 
 ## Philosophy
 
@@ -26,7 +26,7 @@ However, with the emergence of new used goods sites like Grailed, I wished to co
 
 ## The Inspiration: Grailed.com
 
-![grailed logo]({{site.baseurl}}/images/grailed.png)
+![grailed logo]({{site.baseurl}}/assets/images/blog/grailed.png)
 
 For those unaware of Grailed, here are some reasons why I believe they have been so successful:
 
@@ -60,23 +60,23 @@ The code was linted by the Airbnb ESlint config.
 
 #### Location & Category Search
 
-![spotlight 1]({{site.baseurl}}/images/craigslist2.png)
+![spotlight 1]({{site.baseurl}}/assets/images/blog/craigslist2.png)
 
 One of the most frustrating user experiences in Craigslist is the location and category filters. For the computer savvy, no problem. However, for the average user, I believe the filters are too fragmented and visually cluttered. Just looked at this!
 
-![bad ui]({{site.baseurl}}/images/craigslist3.png)
+![bad ui]({{site.baseurl}}/assets/images/blog/craigslist3.png)
 
 Thus, I consolidated the location and category filters in a single section. The products are automatically updated as the user changes the filters in real-time.
 
 #### Product Details Page
 
-![product details page]({{site.baseurl}}/images/craigslist4.png)
+![product details page]({{site.baseurl}}/assets/images/blog/craigslist4.png)
 
 The product details page has one clear emphasis: images. In a world where a baseline smartphone has enough clarity to shame DSLRs, I believe product images should be the center of any used-goods site. Good images sell listings! Users can offer or message the seller through the site.
 
 #### Sell Page
 
-![sell page]({{site.baseurl}}/images/craigslist5.png)
+![sell page]({{site.baseurl}}/assets/images/blog/craigslist5.png)
 
 The sell page optimizes for simplicity, clarity, and "no more additional steps". One annoyance of posting through Craigslist is the multiple steps you must go through in order to get to a page like this. You must first select your location, then borough, then category, then sub-category... then on and on. In the idealistic world users wish to live in, one consolidated sell page leaves no confusion. If users click submit, users want the listing to be uploaded. Simple as that.
 
@@ -84,19 +84,19 @@ Another sensitive detail: image upload! Users can drag n' drop images, then rear
 
 #### Messages Page
 
-![messages]({{site.baseurl}}/images/craigslist6.png)
+![messages]({{site.baseurl}}/assets/images/blog/craigslist6.png)
 
 In Craigslist, you communicate through anonymous (or not) emails. However, I believe a platform should be self-contained if possible. Email is an asynchronous messaging tool, which can be easily replicated in more conversational format through live chats. Moreover, the email function of Craigslist has been vulnerable to famous exploits such as the brilliant [Airbnb growth hack](https://davegooden.com/2011/05/how-airbnb-became-a-billion-dollar-company/). Thus, I implemented a live chat that allows users to easily categorize messages by products. Moreover, the offer integration allows users to send direct offers without small chat if desired.
 
 #### Seller identity
 
-![seller identity]({{site.baseurl}}/images/craigslist7.png)
+![seller identity]({{site.baseurl}}/assets/images/blog/craigslist7.png)
 
 What does Craigslist definitely lack? User identity! I understand that the site caters to privacy concerns and ease of use. However, users feel empowered and attach to the online identity they create in each platform. Moreover, it's incredibly useful to know many items the user has previous sold on the platform. Users can customize their username and profile picture. Giving users an "email address identity" is practically worse than giving them none! Of course, unless your email is something like: jack@twitter.com
 
 #### Favorites
 
-![favorites]({{site.baseurl}}/images/craigslist8.png)
+![favorites]({{site.baseurl}}/assets/images/blog/craigslist8.png)
 
 Adding a listing to your personal favorites should be as easy as possible to facilitate active engagement and combat fickle memories. I believe if favoriting a listing takes longer than a single click, the user already faces significant friction. Moreover, the user should be able to favorite listings without visiting the details page. All users need to do is toggle the star icon in the listings, then they can acess their favorites in the same layout as other product grids.
 
@@ -106,7 +106,7 @@ Adding a listing to your personal favorites should be as easy as possible to fac
 
 #### Valuation and options pricing tools for finance students
 
-![mfg app home]({{site.baseurl}}/images/mfg1.png)
+![mfg app home]({{site.baseurl}}/assets/images/blog/mfg1.png)
 
 ## Philosophy
 
@@ -124,13 +124,13 @@ This is also the first time we've used the GraphQL schema.
 
 #### Feature Request
 
-![mfg app feature req]({{site.baseurl}}/images/mfg2.png)
+![mfg app feature req]({{site.baseurl}}/assets/images/blog/mfg2.png)
 
 Since we built a platform for undergraduate finance students, we believe that we should create and iterate features most requested by students. Thus, we created an incredibly easy (and anonymous) modal form that can send requests straight into our Slack server.
 
 #### Discounted Cash Flow Calculator
 
-![dcf calculator]({{site.baseurl}}/images/mfg3.png)
+![dcf calculator]({{site.baseurl}}/assets/images/blog/mfg3.png)
 
 A common theme you will notice throughout the features is the clear separation between the inputs and outputs. Although the output can be used to manipulate the input that would result in the specified output, we believe that a clear separation is often lacking in excel sheets at NYU.
 
@@ -138,7 +138,7 @@ Moreover, as a student resource, we believe we should leave no variable or formu
 
 #### Gordon Growth model
 
-![GG calculator]({{site.baseurl}}/images/mfg4.png)
+![GG calculator]({{site.baseurl}}/assets/images/blog/mfg4.png)
 
 Although the previous DCF calculator was a simple calculator, the Gordon Growth model is a well-known valuation tool that benefits from graphical representations. Although we can easily imagine which variables will push the valuation in what direction, we find it hard to imagine the magnitude of the changes. Thus, a graphical representation of the surrounding values can give us an intuitive sensitivites of the different variables.
 
@@ -146,13 +146,13 @@ The graph is interactive, and users can hover over each point in the plot to see
 
 #### Valuation Model Picker
 
-![model picker]({{site.baseurl}}/images/mfg5.png)
+![model picker]({{site.baseurl}}/assets/images/blog/mfg5.png)
 
 Damodaran's model picker is an incredibly useful and logical tool that allows students to pick the appropriate valuation model for the respective company. However, his excel sheet is essentially a flowchart of questions without extensive validation. We can use the typical web checkout flowchart to present these questions in an incredibly beautiful and validated manner.
 
 #### Black-Scholes Option Pricing Calculator
 
-![black scholes options calculator]({{site.baseurl}}/images/mfg6.png)
+![black scholes options calculator]({{site.baseurl}}/assets/images/blog/mfg6.png)
 
 The Black-Scholes options pricing calculator is an incredibly daunting calculator for the average student. I'm not particularly terrible at math, but it took me quite some time to truly understand what the model tries to capture and represent.
 
@@ -164,7 +164,7 @@ Thus, we prioritized presenting the inputs and outputs in an coherent and simpli
 
 #### Permanent Dark(er) theme for Jekyll
 
-![dark poole landing page]({{site.baseurl}}/images/poole1.png)
+![dark poole landing page]({{site.baseurl}}/assets/images/blog/poole1.png)
 
 Check out the live example: [https://andrewhwanpark.github.io/dark-poole/](https://andrewhwanpark.github.io/dark-poole/)
 
@@ -180,6 +180,6 @@ However, I clearly noticed a lack of dark themes. At least good looking dark the
 
 #### Archive
 
-![dark poole archive]({{site.baseurl}}/images/poole2.png)
+![dark poole archive]({{site.baseurl}}/assets/images/blog/poole2.png)
 
 An archive is an essential feature of any respectable blog or static site. Check out [Aaron Swartz's blog arhive](http://www.aaronsw.com/weblog/archive) or [Slate Star Codex's archive](https://slatestarcodex.com/archives/). They are so simple, but you know each and every one of those links will take you on a fantastic journey. These archives emphasize content over all. Similarly, Dark Poole's archive balances simplicity with utility.
