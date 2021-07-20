@@ -44,6 +44,10 @@ footer-links:
   rss: # just type anything here for a working RSS icon
   twitter:
 
+sass:
+  sass_dir: _sass
+  style: :compressed
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
