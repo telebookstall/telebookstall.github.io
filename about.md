@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-### NYU / CMU Silicon Valley
-
 This is a simple blog I made for fun (mainly to display photos from my camera) using Jekyll.
 
-### Contact me
+You can make an identically looking Jekyll site using my theme: [https://github.com/andrewhwanpark/brutalist-blog](https://github.com/andrewhwanpark/brutalist-blog)
 
-[Resume as of Jul 2021]({{site.baseurl}}/assets/files/ahwanp_resume.pdf)
+### Contact me
 
 [hwanp@andrew.cmu.edu](mailto:hwanp@andrew.cmu.edu)
