@@ -4,182 +4,171 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
-# Table of Contents
 
-1. [Craigslist-Redux](#craigslist-redux)
-2. [NYU Math Finance Group App](#nyu-math-finance-group-app)
-3. [Dark-Poole](#dark-poole)
+[**索引**](/TELEBOOKSTALLINDEX-07-31) **•** **[星闻观感](https://telegra.ph/starry-02-13)** • [**频道**](https://t.me/telebookstall) • [**网站**](https://telebookstall.xlog.app/)
 
-# Craigslist-Redux
+# 总论
 
----
+[电书摊总论](/%E7%94%B5%E4%B9%A6%E6%91%8A%E9%A2%91%E9%81%93%E5%88%9B%E7%AB%8B%E5%B0%8F%E4%BC%A0-08-03)
 
-#### Full-stack, functional, modern recreation of Craigslist
+# 觀感
 
-![craigslist 1]({{site.baseurl}}/assets/images/blog/craigslist1.png)
+## 2024
 
-## Philosophy
+[空想的理论](/Fantasy-Theory-01-01)
 
-Why recreate Craigslist? Some may argue that the site is perfect for its functions, as demonstrated by the longevity and relevance of the site. I wholeheartedly agree. I admire the engineers and designers at Craigslist: the site is incredibly complex, yet has great performance and clarity in UI/UX. I rarely hear criticisms of Craigslist for good reasons. The site is truly what the Web should strive for. No frills, all gas.
+## 2023
 
-However, with the emergence of new used goods sites like Grailed, I wished to combine some modern elements of used goods sites like Grailed with Craigslist.
+[电书摊2023年末杂谈](/2023-12-31-12-31)
 
-## The Inspiration: Grailed.com
+[文科的悲哀](/The-Sorrow-of-Humanities-12-30)
 
-![grailed logo]({{site.baseurl}}/assets/images/blog/grailed.png)
+[山动水不动](/Mountains-shift-waters-still-12-19)
 
-For those unaware of Grailed, here are some reasons why I believe they have been so successful:
+[对“裁判文书公开”的看法](/Views-on-the-Openness-of-Judicial-Documents-12-14)
 
-- **Minimal and consistent UI/UX**
-- **Emphasis on product images:** reading an eBay listing feels like reading technical documentation.
-- **Infinite scrolling:** Platforms should encourage browsing and consumption. That simple friction of clicking the "more" button can be the difference between an user that stays for an additional n-minutes.
-- **Favorites:** You can add any listing to your personal "Favorites" and keep track of them in one page, and get notifications when prices change. In the same page, you can keep track of sellers you follow.
-- **Seller branding:** sellers can add profile pictures and usernames. You can also add profile pictures in eBay, but when do you ever see them? I don't even know if I have a profile picture uploaded on eBay. But I don't know or care since I never come across it.
-- **Price drops and bump:** You can perform 2 actions to your listings. Drop the price by n%, or bump the listing to the top every week. Try this very simple action on eBay. Price dropping takes around 10 clicks, and bumping is non-existant.
-- **Comments on listings:** Comments allow sellers to broadcast information or answer specific FAQs. Comments also allow buyers to publically broadcast information about the listing. I've had times where I found out the product is fake thanks to comments left by users.
+[当思考渐行渐远](/When-Thinking-Fades-Away-12-14)
 
-## So it's just a mismash between Craigslist and Grailed?
+[正义的伙伴](/a-partner-in-justice-11-20)
 
-> Imitation is the sincerest form of flattery
+[何为利益](/what-is-interest-11-20)
 
-Yes! I truly love the UI/UX of Grailed. I believe the site really set a standard for how product-centric sites should look and perform. When I talked to the co-founder of Grailed in my freshmen year of NYU, I never forgot what he told me:
+[何为正义](/%E4%BD%95%E4%B8%BA%E6%AD%A3%E4%B9%89-11-20)
 
-> I didn't know how to build Grailed when I built Grailed. I just Googled it. Literally. "How do I build a website where I can do this." There's so much knowledge on the internet, that you can figure anything out if you read about it. Some combination of believing in yourself and making it happen.
+[社交媒体时代的谣言与欺骗](/Rumors-and-deception-in-the-era-of-social-media-09-14)
 
-I internalized the same philosophy building this site. I didn't know the first thing about building a site at this scale. I simply confronted problems as they emerged, solved them by any means necessary, and slowly developed the vision for what the site should look like, feel like, and perform like. Nothing motivated me to build this site than the sake of building a beautiful product I can be proud of.
+[刺破社会契约论的幻想](/Social-Contract-Theory-09-04)
 
-## Stack
+[无情的人](/heartless-person-08-19)
 
-The site uses the MERN stack: MongoDB, Express, React, Node
+[思维可否ROOT？](/Can-thinking-be-rooted-08-14)
 
-The site is hosted on Heroku: [https://craigslist-redux.herokuapp.com/](https://craigslist-redux.herokuapp.com/)
+[人类如何走出剥削](/Transcend-Exploitation-08-02)
 
-The code was linted by the Airbnb ESlint config.
+[不穿内裤的人](/no-panties-07-23)
 
-## UI/UX spotlight
+[道德内外](/morality-07-15)
 
-#### Location & Category Search
+[我的初恋、性瘾和阉割](/first-love-07-08-3)
 
-![spotlight 1]({{site.baseurl}}/assets/images/blog/craigslist2.png)
+[思考即快乐](/Reflect-and-be-happy-07-05)
 
-One of the most frustrating user experiences in Craigslist is the location and category filters. For the computer savvy, no problem. However, for the average user, I believe the filters are too fragmented and visually cluttered. Just looked at this!
+[对“共产主义社会”所需物质基础的探讨](/the-base-06-04)
 
-![bad ui]({{site.baseurl}}/assets/images/blog/craigslist3.png)
+[前世、来世、圣物、我](/afterlife-04-03-38)
 
-Thus, I consolidated the location and category filters in a single section. The products are automatically updated as the user changes the filters in real-time.
+[日光之下并无新事，谦抑极端保守经验](/there-is-nothing-new-under-the-sun-05-08)
 
-#### Product Details Page
+[主人还是国王？个人与自身的真实关系](/Master-or-King-The-Real-Relationship-Between-Individual-and-Oneself-05-30)
 
-![product details page]({{site.baseurl}}/assets/images/blog/craigslist4.png)
+## 2022
 
-The product details page has one clear emphasis: images. In a world where a baseline smartphone has enough clarity to shame DSLRs, I believe product images should be the center of any used-goods site. Good images sell listings! Users can offer or message the seller through the site.
+[爲誰而作](/%E7%88%B2%E8%AA%B0%E8%80%8C%E4%BD%9C-01-07)
 
-#### Sell Page
+[除夕杂谈奴役与生死](/%E9%99%A4%E5%A4%95%E6%9D%82%E8%B0%88%E5%A5%B4%E5%BD%B9%E4%B8%8E%E7%94%9F%E6%AD%BB-01-31)
 
-![sell page]({{site.baseurl}}/assets/images/blog/craigslist5.png)
+[能夠獨自生活才是最好的生活](/%E8%83%BD%E5%A4%A0%E7%8D%A8%E8%87%AA%E7%94%9F%E6%B4%BB%E6%89%8D%E6%98%AF%E6%9C%80%E5%A5%BD%E7%9A%84%E7%94%9F%E6%B4%BB-03-03)
 
-The sell page optimizes for simplicity, clarity, and "no more additional steps". One annoyance of posting through Craigslist is the multiple steps you must go through in order to get to a page like this. You must first select your location, then borough, then category, then sub-category... then on and on. In the idealistic world users wish to live in, one consolidated sell page leaves no confusion. If users click submit, users want the listing to be uploaded. Simple as that.
+[极端的我写的垃圾文字对这个操蛋世界的谩骂](/%E6%9E%81%E7%AB%AF%E7%9A%84%E6%88%91%E5%86%99%E7%9A%84%E5%9E%83%E5%9C%BE%E6%96%87%E5%AD%97%E5%AF%B9%E8%BF%99%E4%B8%AA%E6%93%8D%E8%9B%8B%E4%B8%96%E7%95%8C%E7%9A%84%E8%B0%A9%E9%AA%82-03-05)
 
-Another sensitive detail: image upload! Users can drag n' drop images, then rearrange them in the order they wish. Many sites allow users to drag n' drop images, but they don't let you rearrange them. If images are presented in a grid before upload, you should be able to drag them to rearrange. Users wish to have easy and intuitive creative control over the presentation.
+[第三條路](/%E7%AC%AC%E4%B8%89%E6%A2%9D%E8%B7%AF-03-14)
 
-#### Messages Page
+[與外公談今昔戰爭](/%E8%88%87%E5%A4%96%E5%85%AC%E8%AB%87%E4%BB%8A%E6%98%94%E6%88%B0%E7%88%AD-03-16)
 
-![messages]({{site.baseurl}}/assets/images/blog/craigslist6.png)
+[新的尝试](/%E6%96%B0%E7%9A%84%E5%B0%9D%E8%AF%95-03-29)
 
-In Craigslist, you communicate through anonymous (or not) emails. However, I believe a platform should be self-contained if possible. Email is an asynchronous messaging tool, which can be easily replicated in more conversational format through live chats. Moreover, the email function of Craigslist has been vulnerable to famous exploits such as the brilliant [Airbnb growth hack](https://davegooden.com/2011/05/how-airbnb-became-a-billion-dollar-company/). Thus, I implemented a live chat that allows users to easily categorize messages by products. Moreover, the offer integration allows users to send direct offers without small chat if desired.
+[去中心化与去贪嗔痴慢疑化](/%E5%8E%BB%E4%B8%AD%E5%BF%83%E5%8C%96%E4%B8%8E%E5%8E%BB%E8%B4%AA%E5%97%94%E7%97%B4%E6%85%A2%E7%96%91%E5%8C%96-04-03)
 
-#### Seller identity
+[悲与伤](/%E6%82%B2%E4%B8%8E%E4%BC%A4-04-08)
 
-![seller identity]({{site.baseurl}}/assets/images/blog/craigslist7.png)
+[塑造人物：记一件令我难忘的事](/%E5%A1%91%E9%80%A0%E4%BA%BA%E7%89%A9%E8%AE%B0%E4%B8%80%E4%BB%B6%E4%BB%A4%E6%88%91%E9%9A%BE%E5%BF%98%E7%9A%84%E4%BA%8B-04-15)
 
-What does Craigslist definitely lack? User identity! I understand that the site caters to privacy concerns and ease of use. However, users feel empowered and attach to the online identity they create in each platform. Moreover, it's incredibly useful to know many items the user has previous sold on the platform. Users can customize their username and profile picture. Giving users an "email address identity" is practically worse than giving them none! Of course, unless your email is something like: jack@twitter.com
+[我所做过的春梦](/%E6%88%91%E6%89%80%E5%81%9A%E8%BF%87%E7%9A%84%E6%98%A5%E6%A2%A6-04-17)
 
-#### Favorites
+[夏天的白云好大，小满前杂记](/%E5%A4%8F%E5%A4%A9%E7%9A%84%E7%99%BD%E4%BA%91%E5%A5%BD%E5%A4%A7%E5%B0%8F%E6%BB%A1%E5%89%8D%E6%9D%82%E8%AE%B0-05-16)
 
-![favorites]({{site.baseurl}}/assets/images/blog/craigslist8.png)
+[我不需要](/%E6%88%91%E4%B8%8D%E9%9C%80%E8%A6%81-07-01)
 
-Adding a listing to your personal favorites should be as easy as possible to facilitate active engagement and combat fickle memories. I believe if favoriting a listing takes longer than a single click, the user already faces significant friction. Moreover, the user should be able to favorite listings without visiting the details page. All users need to do is toggle the star icon in the listings, then they can acess their favorites in the same layout as other product grids.
+[法律动力学：局部与整体关系](/%E6%B3%95%E5%BE%8B%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%B1%80%E9%83%A8%E4%B8%8E%E6%95%B4%E4%BD%93%E5%85%B3%E7%B3%BB-07-20)
 
-# NYU Math Finance Group App
+[看见星星](/Seeing-stars-08-06)
 
----
+[追问：我的因](/my-root-11-09)
 
-#### Valuation and options pricing tools for finance students
+[冬日](/winter-11-29)
 
-![mfg app home]({{site.baseurl}}/assets/images/blog/mfg1.png)
+[政治黑森林](/%E6%94%BF%E6%B2%BB%E9%BB%91%E6%A3%AE%E6%9E%97-11-29)
 
-## Philosophy
+[末世系列](/the-end-of-the-world-12-28)
 
-Finance lives in excel, for good reasons. If you're an industry professional, you rule over excel and excel rules over you. However, in NYU's Finance classes, you are usually working with very rigid excel sheets that you are just plugging inputs into. This is not a commentary on the US undergraduate finance curriculum, so I'll skip extensive flaws with this approach of teaching in many of my classes. However, we believed that we can improve the user experience of using such tools in classroom settings.
+[两个世界](/two-world-12-30)
 
-Tracking down formulas in excel may be intuitive to the finance student, but it's incredibly disruptive to the overall user experience. Moreover, the formatting issues, circular dependencies, and other quirks make "debugging" a pre-made excel sheet incredibly confusing and unintuitive. In the web, we can signal the users about these issues in explicit ways. Instead of saying "circular dependency error", we can tell the user exactly what field is causing the error. Thus, we believe that the web can be a great candidate to host such calculation and plotting with beautiful UI/UX.
+## 2021
 
-## Stack
+[相信真相的能力](/the-ability-to-believe-the-truth-01-01)——仁者不信，知者不行
 
-The site is built using React (Typescript), Serverless coupled with AWS Lambda: [https://app.mfgnyu.com](https://app.mfgnyu.com)
+[群體之力](/societies-01-02)
 
-This is also the first time we've used the GraphQL schema.
+[屠夫](/butcher-01-23)
 
-## UI/UX spotlight
+[宰殺](/slaughter-01-31)
 
-#### Feature Request
+[陰柔處下——更困難的路](/weak-02-09)
 
-![mfg app feature req]({{site.baseurl}}/assets/images/blog/mfg2.png)
+[創造](/creation-04-05)
 
-Since we built a platform for undergraduate finance students, we believe that we should create and iterate features most requested by students. Thus, we created an incredibly easy (and anonymous) modal form that can send requests straight into our Slack server.
+[匹夫虎山行](/%E5%8C%B9%E5%A4%AB%E8%99%8E%E5%B1%B1%E8%A1%8C-04-18)
 
-#### Discounted Cash Flow Calculator
+[“想多了！”](/%E6%83%B3%E5%A4%9A%E4%BA%86-05-14)
 
-![dcf calculator]({{site.baseurl}}/assets/images/blog/mfg3.png)
+[人性與政治](/%E4%BA%BA%E6%80%A7%E8%88%87%E6%94%BF%E6%B2%BB-06-21)
 
-A common theme you will notice throughout the features is the clear separation between the inputs and outputs. Although the output can be used to manipulate the input that would result in the specified output, we believe that a clear separation is often lacking in excel sheets at NYU.
+[情与欲](/%E6%83%85%E4%B8%8E%E6%AC%B2-07-07)
 
-Moreover, as a student resource, we believe we should leave no variable or formula to assumption. Every variable and formula should be extensively documented and explained.
+[我選擇當個逃犯](/social-death-07-12)
 
-#### Gordon Growth model
+[对不起ごめん•记一部电影](/%E5%AF%B9%E4%B8%8D%E8%B5%B7%E3%81%94%E3%82%81%E3%82%93%E8%AE%B0%E4%B8%80%E9%83%A8%E7%94%B5%E5%BD%B1-07-23)
 
-![GG calculator]({{site.baseurl}}/assets/images/blog/mfg4.png)
+[創造與掌控](/%E5%89%B5%E9%80%A0%E8%88%87%E6%8E%8C%E6%8E%A7-07-24)
 
-Although the previous DCF calculator was a simple calculator, the Gordon Growth model is a well-known valuation tool that benefits from graphical representations. Although we can easily imagine which variables will push the valuation in what direction, we find it hard to imagine the magnitude of the changes. Thus, a graphical representation of the surrounding values can give us an intuitive sensitivites of the different variables.
+[网文：幻想合理化](/fantasy-rationalization-08-22)
 
-The graph is interactive, and users can hover over each point in the plot to see what values will result in such valuations. In the web, we have no excuse to present a non-interactive graph. Interactivity in learning tools is an essential feature that encourages exploration and retention.
+[创造的困境](/creation-08-31)
 
-#### Valuation Model Picker
+[“揭开人的面纱”](/piercing-the-human-veil-10-21)
 
-![model picker]({{site.baseurl}}/assets/images/blog/mfg5.png)
+[人与人](/%E4%BA%BA%E4%B8%8E%E4%BA%BA-11-21)
 
-Damodaran's model picker is an incredibly useful and logical tool that allows students to pick the appropriate valuation model for the respective company. However, his excel sheet is essentially a flowchart of questions without extensive validation. We can use the typical web checkout flowchart to present these questions in an incredibly beautiful and validated manner.
+## 2020年之前
 
-#### Black-Scholes Option Pricing Calculator
+[我的世界观](/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E8%A7%82-08-21)
 
-![black scholes options calculator]({{site.baseurl}}/assets/images/blog/mfg6.png)
+[The End](/The-End-06-13)
 
-The Black-Scholes options pricing calculator is an incredibly daunting calculator for the average student. I'm not particularly terrible at math, but it took me quite some time to truly understand what the model tries to capture and represent.
+[電書攤小傳](/%E7%94%B5%E4%B9%A6%E6%91%8A%E9%A2%91%E9%81%93%E5%88%9B%E7%AB%8B%E5%B0%8F%E4%BC%A0-08-03)
 
-Thus, we prioritized presenting the inputs and outputs in an coherent and simplified manner. For example, rather than asking for the direct time-to-maturity, we present calendar dates and calculate TTM from the user inputs. Moreover, we present an interactive graph that visualizes the call and put options. In the past, graphical representations of options greatly contributed to my understanding of payoffs. I believe the same pattern will apply to other students.
+[人性怪圈——无斗争，不权利](/%E4%BA%BA%E6%80%A7%E6%80%AA%E5%9C%88%E6%97%A0%E6%96%97%E4%BA%89%E4%B8%8D%E6%9D%83%E5%88%A9-03-13)
 
-# Dark-Poole
+[WESTWORLD](/WestWorld-03-19)
 
----
+[亂談性](/sex-07-19-4)
 
-#### Permanent Dark(er) theme for Jekyll
+[秋上心頭](/autumn-09-02)
 
-![dark poole landing page]({{site.baseurl}}/assets/images/blog/poole1.png)
+[要去哪裏](/%E8%A6%81%E5%8E%BB%E5%93%AA%E8%A3%8F-09-08)
 
-Check out the live example: [https://andrewhwanpark.github.io/dark-poole/](https://andrewhwanpark.github.io/dark-poole/)
+[誰去理解](/understanding-09-14)
 
-## Philosophy
+[純净的生活](/purity-10-27)
 
-I am a big fan of the current wave of the Web moving towards dark UIs. For a nightowl like myself, staring at a white static site at 3 AM through my 27 inch monitor burns holes in my retinas. (Disclaimer: this site is white themed because the site is mainly for photos!)
+[時常想起的書，人（怪人和寫怪人的書）](/%E6%99%82%E5%B8%B8%E6%83%B3%E8%B5%B7%E7%9A%84%E6%9B%B8%E4%BA%BA%E6%80%AA%E4%BA%BA%E5%92%8C%E5%AF%AB%E6%80%AA%E4%BA%BA%E7%9A%84%E6%9B%B8-11-06)
 
-Jekyll is an incredibly powerful tool to create static sites. Jekyll is markdown-driven, and creating new posts or articles is a fun experience. Moreover, Jekyll has many sites that host beautiful pre-made themes. (Remember wordpress themes? Now you can do it as an adult)
+[魔道滅，神道生](/in-god-we-trust-11-21)
 
-However, I clearly noticed a lack of dark themes. At least good looking dark themes. [Poole](https://github.com/poole/poole) by @mdo is one of my favorite Jekyll themes. (@mdo is also the creator of Bootstrap) Poole actually ships with a dark mode, but the dark mode is only active through CSS media queries and is not... really dark. It's more like "dark blue mode". Thus, I decided to make a new theme based on Poole inspired by Derek Kedziora's site palette. Unlike Poole, the theme will stay dark regardless of the user's preference.
+[偷狗者](/Dog-stealer-12-01)
 
-## UI/UX spotlight
 
-#### Archive
+[後電書攤](https://t.me/telebookstall) • [索引](/TELEBOOKSTALLINDEX-07-31) • [蝴蝶機器](https://t.me/hudiebot) • [Xlog](https://telebookstall.xlog.app/)
 
-![dark poole archive]({{site.baseurl}}/assets/images/blog/poole2.png)
 
-An archive is an essential feature of any respectable blog or static site. Check out [Aaron Swartz's blog arhive](http://www.aaronsw.com/weblog/archive) or [Slate Star Codex's archive](https://slatestarcodex.com/archives/). They are so simple, but you know each and every one of those links will take you on a fantastic journey. These archives emphasize content over all. Similarly, Dark Poole's archive balances simplicity with utility.
+Cancel Report
