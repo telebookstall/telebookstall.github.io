@@ -7,4 +7,4 @@ permalink: /about/
 
 ### Contact me
 
-xlog是本摊2023年使用的，目前主要内容都在上面。即时消息会在电报[@telebookstall](https://t.me/telebookstall)。批评电书摊，可以加入[电报群](https://t.me/+KVJHfWvAa-MwYzE1)。国人们无论多小的回应，都是本摊存在意义的证明。
+[xlog](https://telebookstall.xlog.app)是本摊2023年使用的，目前主要内容都在上面。即时消息会在电报[@telebookstall](https://t.me/telebookstall)。批评电书摊，可以加入[电报群](https://t.me/+KVJHfWvAa-MwYzE1)。国人们无论多小的回应，都是本摊存在意义的证明。
