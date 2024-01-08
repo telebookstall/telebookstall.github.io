@@ -1,9 +1,9 @@
 ---
 layout: page
-title: pandect
+title: 电书摊总论
 permalink: /pandect/
 ---
-![image](https://github.com/telebookstall/telebookstall.github.io/assets/155501632/aa2b5ab1-b63e-41fe-bb33-5b83733f6a74)
+
 
 欢迎来到電書攤TelebookStall。越质朴的思想越不被苛责，越标新立异的想法越容易误人前程。面对本摊之言论，质朴之处，可以共鸣；标新立异之处，应该全盘否定。不妨当作[谣言与欺骗](https://telebookstall.xlog.app/Rumors-and-deception-in-the-era-of-social-media#%E4%BB%8E%E8%B0%A3%E8%A8%80%E5%88%B0%E6%AC%BA%E9%AA%97)。
 
