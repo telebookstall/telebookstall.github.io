@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 电书摊总论
+title: 论创造
 ---
 ![The Event Horizon Telescope (EHT) — a planet-scale array of eight ground-based radio telescopes forged through international collaboration](https://www.eso.org/public/archives/images/thumb700x/eso1907a.jpg)
 国内某视觉公司曾经将黑洞图片纳入自己的版权库，公然[盗用欧洲南方天文台](https://www.dw.com/zh/%E8%A7%86%E8%A7%89%E4%B8%AD%E5%9B%BD%E9%BB%91%E6%B4%9E%E5%BC%95%E4%BC%97%E6%80%92-%E4%B8%AD%E5%9B%BD%E5%AE%98%E6%96%B9%E5%87%BA%E6%89%8B%E6%89%93%E5%81%87%E7%89%88%E6%9D%83/a-48305395)的知识产权。另一方面，迪士尼的[黑白米老鼠](https://www.nytimes.com/2024/01/01/arts/public-domain-mickey-mouse.html)，也在今年元旦进入公有领域。在法治社会，各种国际公约、国内法都在保护知识产权。就连我们随手写下的微信、电报、文章，也在写完的时候自动获得知识产权法规的保护，因为这是人的创造，凝聚着人的智力成果。在作家手里，一部部史诗般的作品诞生，如《冰与火之歌》《西游记》。在画家手中、在雕塑家手中、在音乐家手中……这一部部形式各样的作品如意识般浮现在社会中，成为影响一代又一代人的圣物。当然还有科学家的专利，等等。于是，我们“创造”一词来讴歌巨匠们的杰作。创造力也因此登上神坛，成为我们评判作品的一个指标。
