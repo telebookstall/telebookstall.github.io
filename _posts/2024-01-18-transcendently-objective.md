@@ -1,3 +1,7 @@
+---
+layout: post
+title: 超客观
+---
 
 ![Witch Ball, c. 1937](https://media.nga.gov/iiif/480bb3df-638d-4a4a-bd04-c6b306cdc014/full/!588,600/0/default.jpg)
 本篇仅为补全关于客观主义的一个概念，纯粹是自娱自乐。本篇不具有任何展示目的。
